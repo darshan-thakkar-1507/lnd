@@ -1,7 +1,7 @@
 module github.com/lightningnetwork/lnd
 
 require (
-	git.schwanenlied.me/yawning/bsaes.git v0.0.0-20180720073208-c0276d75487e // indirect
+	github.com/Yawning/bsaes v0.0.0-20180720073208-c0276d75487e // indirect
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e // indirect
 	github.com/NebulousLabs/go-upnp v0.0.0-20180202185039-29b680b06c82
 	github.com/Yawning/aez v0.0.0-20180114000226-4dad034d9db2
@@ -86,7 +86,7 @@ replace github.com/lightningnetwork/lnd/kvdb => ./kvdb
 // This is a indirect dependency that cannot be upgraded directly.
 replace go.mongodb.org/mongo-driver => go.mongodb.org/mongo-driver v1.5.1
 
-replace git.schwanenlied.me/yawning/bsaes.git => github.com/Yawning/bsaes v0.0.0-20180720073208-c0276d75487e
+<!--replace git.schwanenlied.me/yawning/bsaes.git => github.com/Yawning/bsaes v0.0.0-20180720073208-c0276d75487e-->
 
 // This replace is for https://github.com/advisories/GHSA-w73w-5m7g-f7qc
 replace github.com/dgrijalva/jwt-go => github.com/golang-jwt/jwt v3.2.1+incompatible
